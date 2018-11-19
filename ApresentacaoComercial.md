@@ -3,6 +3,7 @@
 
 ## Tópicos
 • Overview do projeto;
+
 • O que entregamos, e  o que está planejado para entregar;
 
 ## Primeira entrega
