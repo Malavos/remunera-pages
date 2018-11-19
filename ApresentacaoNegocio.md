@@ -1,4 +1,4 @@
-# Reunião Comercial -  Sistema de Remuneração
+# Apresentação do Negócio - Sistema de Remuneração
 
 
 ## Tópicos
@@ -127,3 +127,9 @@ Pra cada tipo de evento, existe um roteiro.
 - Buscar lançamentos com status em aberto e sem status de contabilização (nulo ou erro)
 - Se for liberado o pagamento do contrato ao cliente,  é verificado se o evento e roteiro estão cadastrados. A data que é utilizada é a data de liberação contrato. Essa data é utilizada para filtrar qual o roteiro contábil está válido naquela data.
 - É gerado o registro de contabilização com as contas cadastradas no roteiro contábil buscado.
+
+## Detalhes adicionais
+
+- Todos os arquivos de CRK vão com a chave única. Única pro fechamentoMensalCorrespondente.
+- No CRK da nota fiscal, a chave única também estará no mesmo. No SCAC não precisava pois a contabilização era só feita depois da entrega da nota fiscal.
+- São 3 relatório finaceiros e 7 contábeis.
