@@ -122,8 +122,8 @@ Pra cada tipo de evento, existe um roteiro.
 
 ## Contabilização de provisão
 
-Buscar todos os eventos contábeis que tenham tipo de evento provisão.
-Consultar tipo de lançamentos dos Eventos contábeis para provisão. (Crédito e Remuneração a vista por enquanto)
-Buscar lançamentos com status em aberto e sem status de contabilização (nulo ou erro)
-Se for liberado o pagamento do contrato ao cliente,  é verificado se o evento e roteiro estão cadastrados. A data que é utilizada é a data de liberação contrato. Essa data é utilizada para filtrar qual o roteiro contábil está válido naquela data.
-É gerado o registro de contabilização com as contas cadastradas no roteiro contábil buscado.
+- Buscar todos os eventos contábeis que tenham tipo de evento provisão.
+- Consultar tipo de lançamentos dos Eventos contábeis para provisão. (Crédito e Remuneração a vista por enquanto)
+- Buscar lançamentos com status em aberto e sem status de contabilização (nulo ou erro)
+- Se for liberado o pagamento do contrato ao cliente,  é verificado se o evento e roteiro estão cadastrados. A data que é utilizada é a data de liberação contrato. Essa data é utilizada para filtrar qual o roteiro contábil está válido naquela data.
+- É gerado o registro de contabilização com as contas cadastradas no roteiro contábil buscado.
